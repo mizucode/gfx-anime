@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind base;
+body {
+	@apply font-poppins bg-putih-dasar h-screen w-screen overflow-hidden bg-gradient-to-b from-white to-blue-background;
+}
+
+@tailwind components;
+@tailwind utilities;
+@tailwind components;
+@tailwind utilities;
