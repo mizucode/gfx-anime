@@ -1,10 +1,16 @@
 @tailwind base;
-@tailwind base;
 body {
 	@apply font-poppins bg-putih-dasar h-screen w-screen overflow-hidden bg-gradient-to-b from-white to-blue-background;
 }
 
 @tailwind components;
 @tailwind utilities;
-@tailwind components;
-@tailwind utilities;
+
+@layer components {
+	.grid-foto {
+		@apply bg-blue-500 w-4 h-4 text-white shadow-md rounded-sm overflow-hidden;
+	}
+	.grid-foto-div {
+		@apply h-full w-full;
+	}
+}
